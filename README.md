@@ -1,7 +1,5 @@
 ## About this project
 
-## How to 
-
 # Money Manager Web Application
 
 ## **Project Overview**
@@ -19,6 +17,7 @@ This is a web-based expense tracker application designed to help users manage th
 3. **Budgeting**:
    - Set budgets for specific categories.
    - Monitor remaining budget in real-time.
+   ------- ?? Monitor remaining budget in real-time. 
 4. **Recurring Payments**:
    - Define and manage recurring expenses.
    - Automated reminders for upcoming recurring payments.
@@ -29,6 +28,7 @@ This is a web-based expense tracker application designed to help users manage th
    - Convert expenses dynamically based on preferred currency.
 7. **Modern UI/UX**:
    - Intuitive and responsive design for desktop.
+   - Intuitive and responsive design.
 
 ---
 
@@ -45,7 +45,6 @@ This is a web-based expense tracker application designed to help users manage th
 - **Charting Library**: Chart.js via vue-chartjs
 
 ### **Other Tools**:
-- **Task Scheduling**: Celery (with Redis as broker)
 - **API Documentation**: DRF Swagger/OpenAPI
 - **Version Control**: Git
 
@@ -54,13 +53,6 @@ This is a web-based expense tracker application designed to help users manage th
 ## **Installation**
 
 ### **1. Clone the Repository**
-```bash
-git clone https://github.com/your-username/expense-tracker.git
-cd expense-tracker
-
-
-
-
 
 
 ------------------- 
