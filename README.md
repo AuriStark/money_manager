@@ -34,6 +34,14 @@ This is a web-based expense tracker application designed to help users manage th
 
 ## **Tech Stack**
 
+- Frontend: Vue.js
+- Backend: Python (Django/Flask)
+- Database: MongoDB 
+- Testing: Selenium for UI testing, Postman for API testing
+- CI/CD: Jenkins or CircleCI, Azure DevOps or GitHub Actions
+- Use Node.js (with libraries like Socket.IO) for real-time features such as notifications, chats, or live updates.
+
+
 ### **Backend**:
 - **Framework**: Django (Python)
 - **Database**: SQLite (default, switchable to PostgreSQL/MySQL)
@@ -55,11 +63,65 @@ This is a web-based expense tracker application designed to help users manage th
 ### **1. Clone the Repository**
 
 
+---
+
+## **Run**
+
+```bash
+npm install 
+
+..... xxx 
+
+```
+---
+
+## **API Documentation**
+The API is documented using Django Rest Framework’s Swagger. Access the documentation at:
+
+[To Swagger API](http://127.0.0.1:8000/api/docs/)
+
+---
+
+
 ------------------- 
 ## TODO
 
-1. CI/CD - YAML files for automated testing
-2. Write API tests
-3. Initialize Docker Container 
-4. Integrate Kubernetes
-5. 
+- [ ] Design
+- [ ] Mockups
+- [ ] Development
+- [ ] Unit testing
+- [ ] QA
+- [ ] Stage
+- [ ] Beta Testing
+- [ ] Production
+
+
+- [ ] CI/CD - YAML files for automated testing
+- [ ] Write API unit tests
+- [ ] Initialize Docker Container 
+- [ ] Create Jenkins Ui tests
+- [ ] Deploy the app to cloud platforms like Azure.
+- [ ] <!-- Integrate Kubernetes?? -->
+
+---
+
+## **Folder Structure** 
+expense-tracker/
+│
+├── backend/
+│   ├── expense_tracker/    # Main Django project folder
+│   ├── expenses/           # Expense tracking app
+│   ├── users/              # User management app
+│   ├── recurring/          # Recurring expense management app
+│   ├── templates/          # Django templates
+│   └── static/             # Static files (CSS, JS)
+│
+├── frontend/
+│   ├── src/                # Vue.js source files
+│   ├── public/             # Public assets
+│   └── package.json        # Frontend dependencies
+│
+├── requirements.txt        # Backend dependencies
+├── README.md               # Documentation
+└── .gitignore              # Files to ignore in Git
+
